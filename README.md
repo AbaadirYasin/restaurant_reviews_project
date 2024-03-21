@@ -1,29 +1,26 @@
-# Restaurant Reviews Project
+Restaurant Reviews Project
 
-This project simulates a restaurant review system with three models: `Restaurant`, `Customer`, and `Review`. The project is structured to maintain modularity and readability.
+The Restaurant Reviews Project is a Python application for managing restaurant reviews. It allows users to add restaurants, customers, and reviews to a SQLite database, as well as retrieve information such as the fanciest restaurant and customer reviews.
 
-## Dependencies
+Setup
+Make sure you have Python installed on your system.
+Clone or download this repository to your local machine.
+Run the database_setup.sql script to create the necessary database tables.
+Execute main.py to test the functionality of the application.
 
-- Python (>=3.6)
-- SQLite3 (built-in with Python)
+Usage
 
-## File Structure
+Run main.py to interact with the application.
+Follow the prompts to add restaurants, customers, and reviews to the database.
+Test different functionalities such as finding the fanciest restaurant and customer reviews.
 
-- `main.py`: Entry point of the application.
-- `models/`: Directory containing model classes.
-  - `restaurant.py`: Contains the `Restaurant` class.
-  - `customer.py`: Contains the `Customer` class.
-  - `review.py`: Contains the `Review` class.
-- `database/`: Directory to store SQLite database file.
-- `README.md`: Documentation file.
-- `.gitignore`: File to specify which files and directories to ignore in version control.
+Dependencies
 
-## Usage
+Python 3.x
+SQLite3
 
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Run the `main.py` file to interact with the restaurant review system.
+Contributing
+Contributions to improve this project are welcome! If you find any issues or have suggestions for enhancements, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
